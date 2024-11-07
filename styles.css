@@ -22,20 +22,22 @@ nav{
 nav a{
     text-decoration: none;
     font-size: 1.5rem;
-    color:black;
+    color:#000000;
     font-weight: 900;
     text-align: center;
     margin-right: 1.4rem;
 }
 nav a:hover{
     background: blanchedalmond;
+    padding: 1rem;
 }
 li{
     display: inline-block;
 }
 h1{
     font-size: 3rem;
-    color:white
+    color:white;
+    text-align: center;
 }
 ul {
     list-style: none;
@@ -68,7 +70,7 @@ img:last-child{
     background-color:darkgray;
 }
 #contact{
-    background-color: rgb(0, 255, 213);
+    background-color: rgb(0, 174, 255);
     text-align: center;
     width:100%;
     height: 30vh;
@@ -76,10 +78,20 @@ img:last-child{
     flex-direction: column;
     justify-content: center;
 }
-h2,#show-all{
+h2{
     font-size: 1.8rem;
     margin:1rem;
     text-align:center;
+}
+#show-all{
+    background: blanchedalmond;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:#000000;
+    font-weight: 900;
+    text-align: center;
+    margin-right: 1.4rem;
 }
 p{
     font-style: italic;
